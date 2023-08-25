@@ -46,5 +46,9 @@ class SDXL_AspectRatio:
 
 
 NODE_CLASS_MAPPINGS = {
-    "SDXL Aspect Ratio Selector": SDXL_AspectRatio
+    "SDXL_AspectRatio": SDXL_AspectRatio
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "SDXL_AspectRatio": "SDXL Aspect Ratio Selector",
 }
