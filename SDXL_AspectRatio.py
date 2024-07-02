@@ -16,7 +16,7 @@ class SDXL_AspectRatio:
     CATEGORY = "utils"
 
     def Aspect_Ratio(self, aspect_ratio):
-        if aspect_ratio == "[1:1] 1024x10224":
+        if aspect_ratio == "[1:1] 1024x1024":
             width, height = 1024, 1024
         elif aspect_ratio == "[4:5] 896x1152":
             width, height = 896, 1152
